@@ -1,0 +1,22 @@
+
+.clockdate-wrapper {
+  padding:25px;
+  width: auto;
+  border-radius:5px;
+
+}
+#clock{
+  font-family: Digital-7, 'sans-serif';
+  font-size:60px;
+  color:#000000;
+}
+#clock span {
+  color: rgba(0, 0, 0, 0.8);
+  font-size:50px;
+}
+#date {
+  letter-spacing:3px;
+  font-size:14px;
+  font-family:arial,sans-serif;
+  color:#000000;
+}

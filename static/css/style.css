@@ -1,0 +1,145 @@
+
+.site{
+    margin: 20px;
+    margin-left: 10%;
+    font-size: .8rem;
+    color: green;
+    }
+    
+    
+.snippet{
+     margin: 20px;
+    margin-left: 10%;
+    font-size: .9rem;
+    color: gray;
+    margin-bottom: 30px;
+}
+    
+.link{
+    margin: 20px;
+    margin-left: 10%;
+  }
+    
+  .rel_button{
+    cursor: pointer;
+    color: blue;
+}
+
+.img{
+    margin-top: 10%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 15%;
+}
+
+.ren_img{
+    float: left;
+    margin: 15px;
+    width: 7%
+}
+
+.menu {
+        position: sticky;
+        top: 0;
+        display: block;
+        height: 20%;
+        background-color: rgb(255, 255, 255); 
+        width: 100%;
+        box-shadow: -7px 7px 7px -10px #888;
+}
+.search_button{
+    text-align: center;
+}
+    
+#center{
+    margin-top: 125px;
+    text-align:center;
+}
+    
+.search_border{
+
+    padding: 12px 20px;
+    width: 50%;
+    height: 5%;
+    border-radius: 50px;
+}
+    
+.search_border_1{
+    float: left;
+    margin-top: 40px;
+    margin-right: 8px;
+    padding: 12px 20px;
+    width: 50%;
+    border-radius: 50px;
+} 
+.button1{
+    float: left;
+    margin-right: 30px;
+    background-color: white;
+    border-radius: 4em;
+    font-size: 16px;
+    color: black;
+    padding: 0.8em 1.8em;
+    transition-duration: 0.4s;
+    -webkit-transition-duration: 0.4s; /* Safari */
+}
+    
+.button1:hover {
+      transition-duration: 0.25s;
+      background-color: black;
+      color: white;
+}
+    
+.button1:after {
+      border-radius: 4em;
+      transition: all 0.5s;
+      box-shadow: 40px 10px 0 0 white;
+}
+    
+    
+    
+input[type=text]:focus {
+      background-color: black;
+      color: white;
+}
+    
+#clock {
+      font-family: Garamond, Georgia, Serif;
+      font-size: 50px;
+      display:flex;
+      width: auto;
+      align-content: right;
+}
+
+
+
+/* --CLOCK-- */
+
+
+.clockdate-wrapper {
+    width: auto;
+    margin-top: -20px;
+  }
+  #clock{
+    float: left;
+    margin-right: 10px;
+    font-family: Digital-7, 'sans-serif';
+    font-size:40px;
+    color:#000000;
+  }
+
+  #date {
+    letter-spacing:3px;
+    margin-top: 10px;
+    font-size:14px;
+    font-family:arial,sans-serif;
+    color:#000000;
+  }
+
+
+  /* ===========icon===============*/
+  #icon{
+    width: 10px;
+    height: 10px;
+  }

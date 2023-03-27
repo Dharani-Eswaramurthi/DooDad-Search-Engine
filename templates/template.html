@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-16">
+  <link rel="stylesheet" href="/static/css/style.css">
+  <script src="/static/js/time.js"></script>
+</head>
+<style>
+  .button{
+      background-color: white;
+      border-radius: 4em;
+      font-size: 16px;
+      color: black;
+      padding: 0.8em 1.8em;
+      cursor:pointer;
+      text-align: center;
+      transition-duration: 0.4s;
+      -webkit-transition-duration: 0.4s; /* Safari */
+}
+    
+.button:hover {
+      transition-duration: 0.25s;
+      background-color: black;
+      color: white;
+}
+    
+.button:after {
+      content: "";
+      display: flex;
+      align-items: right;
+      border-radius: 4em;
+      transition: all 0.5s;
+      box-shadow: 40px 10px 0 0 white;
+}
+</style>
+<body>
+<div class="main">
+    <img src="https://i.ibb.co/5x9qHxv/logo.png" alt="logo" border="0" class="img"></div>
+    <div class="search_button">
+         <form action="/" method="post">
+          <input class="search_border" type="text" name="query" placeholder="Search">
+          <br>
+          <br>
+          <input class="button" type="submit" value="Search">
+        </form> 
+    </div>
+    <div id="clockdate">
+      <div class="clockdate-wrapper">
+        <div id="clock"></div>
+        <div id="date"></div>
+      </div>
+    </div>
+  </div>
+  </body>
+</html>
